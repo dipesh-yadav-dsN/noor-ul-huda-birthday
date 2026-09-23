@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Noor-ul-Huda 🎁</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <!-- SCREEN 1 -->
+        <section class="screen active" id="screen1">
+            <div class="content">
+
+                <p class="small-text">
+                    A little something for you...
+                </p>
+
+                <h1>
+                    Hello, Noor-ul-Huda 👀
+                </h1>
+
+                <p class="description">
+                    Aapke liye kuch banaya gaya hai.
+                </p>
+
+                <button onclick="nextScreen(2)">
+                    Let's Begin →
+                </button>
+
+            </div>
+        </section>
+
+
+        <!-- SCREEN 2 -->
+        <section class="screen" id="screen2">
+            <div class="content">
+
+                <p class="small-text">
+                    Before we begin...
+                </p>
+
+                <h2>
+                    Are you ready for your birthday surprise?
+                </h2>
+
+                <div class="buttons">
+
+                    <button onclick="readyYes()">
+                        YES 😌
+                    </button>
+
+                    <button class="secondary" onclick="readyNo()">
+                        NO 🙃
+                    </button>
+
+                </div>
+
+                <p class="reaction" id="readyReaction"></p>
+
+            </div>
+        </section>
+
+
+        <!-- SCREEN 3 -->
+        <section class="screen" id="screen3">
+            <div class="content">
+
+                <p class="small-text">
+                    One tiny request...
+                </p>
+
+                <h2>
+                    Kya aap headphones laga sakti hain? 🎧
+                </h2>
+
+                <div class="buttons">
+
+                    <button onclick="headphoneYes()">
+                        YES 🎧
+                    </button>
+
+                    <button class="secondary" onclick="headphoneNo()">
+                        NO 😭
+                    </button>
+
+                </div>
+
+                <p class="reaction" id="headphoneReaction"></p>
+
+            </div>
+        </section>
+
+
+        <!-- SCREEN 4 -->
+        <section class="screen" id="screen4">
+            <div class="content">
+
+                <p class="small-text">
+                    Okay, Noor-ul-Huda...
+                </p>
+
+                <h1>
+                    Now the real surprise begins.
+                </h1>
+
+                <p class="description">
+                    Bas ek button aur.
+                </p>
+
+                <button onclick="startJourney()">
+                    START THE JOURNEY ✈️
+                </button>
+
+            </div>
+        </section>
+
+
+        <!-- SCREEN 5 - GOOGLE DRIVE VIDEO -->
+        <section class="screen video-screen" id="screen5">
+
+            <div class="video-container">
+
+                <iframe
+                    id="birthdayVideo"
+                    src=""
+                    allow="autoplay"
+                    allowfullscreen>
+                </iframe>
+
+            </div>
+
+        </section>
+
+
+        <!-- SCREEN 6 -->
+        <section class="screen" id="screen6">
+            <div class="content">
+
+                <p class="small-text">
+                    And...
+                </p>
+
+                <h1>
+                    That's the journey. ❤️
+                </h1>
+
+                <p class="description">
+                    Happy Birthday, Noor-ul-Huda. 🎂
+                </p>
+
+                <button onclick="showFinalMessage()">
+                    One Last Thing →
+                </button>
+
+                <p class="reaction" id="finalReaction"></p>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
